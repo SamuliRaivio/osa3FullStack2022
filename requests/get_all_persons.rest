@@ -1,0 +1,20 @@
+### GET TEST
+GET http://localhost:3001/api/persons
+
+### GET SILNGE
+GET http://localhost:3001/api/persons/1
+
+
+### DELETE TEST
+DELETE  http://localhost:3001/api/persons/2
+
+
+### POST TEST
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "ddsf",   
+    "number": "testNumber"
+
+}
